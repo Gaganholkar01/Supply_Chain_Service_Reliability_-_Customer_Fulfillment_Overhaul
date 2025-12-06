@@ -58,7 +58,7 @@ The primary analytical contribution was the creation of diagnostic metrics in SQ
 **Insight:** The service gap against target is most acute in Ahmedabad, which is prioritized for operational stabilization efforts.
 
 **📷 Dashboard Preview**
-*(The following image must be present in your `images/` folder to display correctly.)*
+https://github.com/Gaganholkar01/Supply_Chain_Service_Reliability_-_Customer_Fulfillment_Overhaul/blob/master/images/Dashboard_1.png
 
 <a id="4-dashboard-2-root-cause--action"></a>
 ## 4. 🥈 Dashboard 2 — Root Cause & Action Plan
