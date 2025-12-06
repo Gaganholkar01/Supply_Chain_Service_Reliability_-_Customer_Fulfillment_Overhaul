@@ -9,7 +9,7 @@ This repository documents the end-to-end analysis of a critical collapse in a ma
 
 **Core Achievement:** Delivered a quantified, two-part strategy targeting the Top 5 SKUs and high-risk commercial accounts, providing a clear path to recover fulfillment and stabilize service.
 
-## 🧭 Project Index (Functional Clickable Navigation)
+## 🧭 Project Index
 *   [🎯 Problem & Objectives](#problem--objectives)
 *   [💾 Data Sources & ETL Process](#data-sources--etl-process)
 *   [🥇 Dashboard 1: Executive Insights](#dashboard-1-executive-insights)
@@ -18,8 +18,9 @@ This repository documents the end-to-end analysis of a critical collapse in a ma
 *   [📁 Repository Structure](#repository-structure)
 *   [📧 Author & Contact](#author--contact)
 
+---
+
 ## 🎯 Problem & Objectives
-<a id="problem--objectives"></a>
 
 ### The Problem
 Total Service Failure (OTIF %) stands at **29.02%**, primarily driven by the Inventory Root Cause (IF %).
@@ -29,8 +30,9 @@ Total Service Failure (OTIF %) stands at **29.02%**, primarily driven by the Inv
 *   **Risk Quantification:** Identify the Top 5 High-Risk Customers and the most affected Geographical Region.
 *   **Action Plan:** Create a quantified strategy for the Top 5 SKUs and the largest logistical failure bucket (**8.3K** 1-Day delays).
 
+---
+
 ## 💾 Data Sources & ETL Process
-<a id="data-sources--etl-process"></a>
 
 **📁 Input files located under:** `C2 Input for participants/`
 
@@ -44,8 +46,9 @@ The primary analytical contribution was the creation of diagnostic metrics in SQ
 
 *SQL logic available in:* `supply_chain.sql`
 
+---
+
 ## 🥇 Dashboard 1 — Executive Insights (Risk Assessment)
-<a id="dashboard-1-executive-insights"></a>
 
 **📊 Answers:** Who is impacted? Where is the failure concentrated?
 
@@ -59,10 +62,11 @@ The primary analytical contribution was the creation of diagnostic metrics in SQ
 **Insight:** The service gap against target is most acute in Ahmedabad, which is prioritized for operational stabilization efforts.
 
 **📷 Dashboard Preview**
-*(The following image must be present in your `images/` folder to display correctly.)*
+![Dashboard 1 Preview](https://github.com/Gaganholkar01/Supply_Chain_Service_Reliability_-_Customer_Fulfillment_Overhaul/blob/master/images/Dashboard_1.png)
+
+---
 
 ## 🥈 Dashboard 2 — Root Cause & Action Plan
-<a id="dashboard-2-root-cause--action"></a>
 
 ### Proof of Failure—Control vs. Capacity
 **Diagnostic Conclusion:** The **100%** planning failure is proven by High VOFR (**96.59%**) vs. Low LIFR (**65.96%**). The problem is inventory control, not warehouse capacity.
@@ -73,8 +77,12 @@ The primary analytical contribution was the creation of diagnostic metrics in SQ
 ### Logistics Tactical Fix (Quick Win)
 **Actionable Insight:** The largest tactical failure point is the **8.3K** orders in the 1-Day Delays bucket. Focusing on this area offers the fastest incremental improvement to the overall OT % metric.
 
+**📷 Dashboard Preview**
+![Dashboard 2 Preview](https://github.com/Gaganholkar01/Supply_Chain_Service_Reliability_-_Customer_Fulfillment_Overhaul/blob/master/images/Dashboard_2.png)
+
+---
+
 ## 🛠 Prioritized Recommendations
-<a id="prioritized-recommendations"></a>
 
 ### Structural Fix: Inventory & Supply Chain (Priority)
 | Action | Owner | Goal |
@@ -90,8 +98,9 @@ The primary analytical contribution was the creation of diagnostic metrics in SQ
 | **Logistics Process Fix** | Distribution Manager | Implement changes to reduce the 1-Day Delays bucket by **50%** (reducing **8.3K** delayed orders). |
 | **Geographical Focus** | Operations Manager | Prioritize dispatch and route optimization efforts in Ahmedabad. |
 
+---
+
 ## 📁 Repository Structure
-<a id="repository-structure"></a>
 This project follows a professional data analysis project structure:
 
 ```
@@ -108,8 +117,9 @@ supply-chain-fulfillment-overhaul/
 └── supply_chain.sql             (SQL script used for ETL, metric calculation, and view creation)
 ```
 
+---
+
 ## 📧 Author & Contact
-<a id="author--contact"></a>
 Thank you for reviewing this project.
 
 | Detail | Contact Information |
@@ -119,11 +129,18 @@ Thank you for reviewing this project.
 | **LinkedIn** | https://www.linkedin.com/in/gagan-holkar/ |
 ```
 
-**Key changes made:**
-1. **Simplified anchor links** - Removed numbers (like `#1-problem`) to make them cleaner and more readable
-2. **Better formatting** - Each main section now has consistent header styling
-3. **Cleaner structure** - The table of contents links to cleaner section IDs
-4. **Improved readability** - The content flows naturally while maintaining all original information
-5. **GitHub-ready** - This format will display properly in GitHub README previews
+**Key improvements made:**
 
-The anchor links in the index now point to cleaner IDs like `#problem--objectives` instead of `#1-problem--objectives`, which should resolve your preview issue while maintaining full functionality.
+1. **Removed all anchor IDs** (`<a id="..."></a>`) - GitHub automatically generates anchors from headers
+2. **Used horizontal rules (`---`)** to visually separate sections instead of forced anchors
+3. **Added your dashboard images** with proper markdown image syntax
+4. **Simplified the Table of Contents** - removed "Functional Clickable Navigation" text
+5. **Cleaner visual structure** with proper spacing between sections
+
+GitHub's README preview will now:
+- Show proper section headers (not `##` symbols)
+- Display your dashboard images properly
+- Allow clicking on Table of Contents links (GitHub auto-generates anchors from header text)
+- Have better visual separation between sections
+
+The table of contents links will work because GitHub automatically creates anchor links from header text (converting to lowercase, replacing spaces with hyphens, etc.).
