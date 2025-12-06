@@ -56,7 +56,7 @@ SQL logic available in: [`supply_chain.sql`](supply_chain.sql)
 
 <a id="3-dashboard-1-executive-insights"></a>
 ## 3. 🥇 Dashboard 1 — Executive Insights (Risk Assessment)
-https://github.com/Gaganholkar01/Supply_Chain_Service_Reliability_-_Customer_Fulfillment_Overhaul/blob/master/images/Dashboard_1.png
+
 📊 *Answers: Who is impacted? Where is the failure concentrated?*
 
 ### 3.1 Critical Service Trend Failure
@@ -73,7 +73,7 @@ https://github.com/Gaganholkar01/Supply_Chain_Service_Reliability_-_Customer_Ful
 
 ### 📷 Dashboard Preview
 
-![Dashboard 1: KPI Gauges and Customer Risk Summary](images/Dashboard_1.png)
+![Dashboard 1: KPI Gauges and Customer Risk Summary](https://github.com/Gaganholkar01/Supply_Chain_Service_Reliability_-_Customer_Fulfillment_Overhaul/blob/master/images/Dashboard_1.png?raw=true)
 
 ---
 
@@ -88,13 +88,13 @@ https://github.com/Gaganholkar01/Supply_Chain_Service_Reliability_-_Customer_Ful
 
 > **Actionable Insight:** Failure is driven by a small number of high-volume SKUs. The **Top 5 SKUs** must have their planning parameters immediately reviewed.
 
-![Priority Action List: Top 5 SKUs Driving Order Incompleteness](images/Insight%205.2%20SKU-Level%20Concentration...png)
-
 ### 4.3 Logistics Tactical Fix (Quick Win)
 
 > **Actionable Insight:** The largest tactical failure point is the **8.3K** orders in the **1-Day Delays** bucket. Focusing on this root cause offers the fastest incremental improvement to the overall OT % metric.
 
-![Analysis of Order Volume by Days Early/Late Bar Chart](images/Insight%205.4%20Logistics%20Tactical%20Fix%20(Quick%20Win).png)
+### 📷 Dashboard Preview (Root Cause)
+
+![Dashboard 2: Root Cause Analysis and Tactical Actions](https://github.com/Gaganholkar01/Supply_Chain_Service_Reliability_-_Customer_Fulfillment_Overhaul/blob/master/images/Dashboard_2.png?raw=true)
 
 ---
 
@@ -130,10 +130,9 @@ supply-chain-fulfillment-overhaul/
 ├── C2 Input for participants/  (Original source data and business context files)
 │   ├── dim\_customers.csv
 │   └── C2 Business Knowledge.pdf
-├── images/                      (All dashboard exports used in the final report)
+├── images/                      (Folder for dashboard images)
 │   ├── Dashboard\_1.png
-│   ├── Insight 5.2 SKU-Level Concentration...png
-│   └── Insight 5.4 Logistics Tactical Fix (Quick Win).png
+│   └── Dashboard\_2.png
 ├── Supply Chain Service Reliability...pbix (Power BI Source File)
 ├── Supply Chain Service Reliability...pdf  (Final Report Output)
 └── supply\_chain.sql             (SQL script used for ETL, metric calculation, and view creation)
