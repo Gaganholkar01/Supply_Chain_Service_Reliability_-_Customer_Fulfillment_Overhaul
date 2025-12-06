@@ -56,7 +56,7 @@ SQL logic available in: [`supply_chain.sql`](supply_chain.sql)
 
 <a id="3-dashboard-1-executive-insights"></a>
 ## 3. 🥇 Dashboard 1 — Executive Insights (Risk Assessment)
-
+https://github.com/Gaganholkar01/Supply_Chain_Service_Reliability_-_Customer_Fulfillment_Overhaul/blob/master/images/Dashboard_1.png
 📊 *Answers: Who is impacted? Where is the failure concentrated?*
 
 ### 3.1 Critical Service Trend Failure
@@ -124,7 +124,7 @@ SQL logic available in: [`supply_chain.sql`](supply_chain.sql)
 
 The project structure is as follows:
 
-
+```
 
 supply-chain-fulfillment-overhaul/
 ├── C2 Input for participants/  (Original source data and business context files)
@@ -138,7 +138,7 @@ supply-chain-fulfillment-overhaul/
 ├── Supply Chain Service Reliability...pdf  (Final Report Output)
 └── supply\_chain.sql             (SQL script used for ETL, metric calculation, and view creation)
 
-
+```
 
 ---
 
